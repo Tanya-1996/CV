@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h2>Form</h2>
+   <form class="" action="mailto:tk@examples.com" method="post">
+
+
+  <label for="username">First Name </label>
+  <input type="text" name="username" value="Firstname" maxlength="10" required autocomplete="on"><br><br>
+  <label for="userlastname">Last Name </label>
+  <input type="text" name="userlastname" value="Lastname" readonly><br>
+
+  <label for="gender">Male </label>
+  <input type="radio" name="gender" value="male">
+  <label for="gender">Female </label>
+  <input type="radio" name="gender" value="female"><br>
+  <label for="DOB">Birthdate </label>
+  <input type="date" name="birthday" value="birthday"><br>
+  <label for="Graduation year">Enter a date before 2021-01-01: </label>
+  <input type="date" name="datemax" value="datemax" max="2021-01-01" disabled><br><br>
+  <label for="Graduation year">Enter a date after 2000-01-01: </label>
+  <input type="date" name="datemin" value="datemin" min="2000-01-02"><br><br>
+  <label for="email">Email id </label>
+  <input type="email" name="email" id="email" autofocus><br><br>
+  <label for="Password">Password </label>
+  <input type="password" name="Password" value=""><br>
+  <label for="file">Upload Resume </label><br>
+  <input type="file" name="file" id="file"><br>
+  <label for="file">Price </label>
+  <input type="range" name="pricerange" id="pricerange" min="0"  max="50000"><br>
+  <label for="gsearch">Search   </label>
+  <input type="search" id="gsearch" name="gsearch"><br><br>
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt"><br><br>
+
+  <label for="homepage">enter url:</label>
+  <input type="url" id="homepage" name="homepage">
+  <input type="checkbox" name="Acceptdetails" value=""> <label for="Agreement">Agree </label><br><br>
+  <button>Click Me</button>
+  <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code"
+   pattern="[A-Za-z]{3}" title="Three letter country code">
+
+
+
+
+
+
+
+  <input type="submit" name="Submit" value="Submit">
+
+ </form>
+
+
+
+</body>
+
+</html>
